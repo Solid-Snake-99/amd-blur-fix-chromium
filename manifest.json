@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "chromium based browsers AMD D3D11 Blur Fix for videos",
+  "version": "1.1.0",
+  "description": "Removes backdrop-filter blur on every video element. Workaround for AMD driver blurriness on D3D11 Chrome and Brave.",
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "css": ["style.css"],
+      "run_at": "document_start",
+      "all_frames": true
+    }
+  ]
+}
