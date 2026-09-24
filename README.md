@@ -2,7 +2,7 @@
 
 WORKS ON: YOUTUBE, NETFLIX, TWITCH and more
 
-Tiny Chrome extension that removes the `backdrop-filter: blur()` applied to video element. Workaround for blurry video playback on Chrome's D3D11 backend with some AMD drivers — D3D9 renders fine, D3D11 looks soft until the blur filter is neutralized.
+Tiny Chrome extension that removes the `backdrop-filter: blur()` applied to video element, A VERY annoying bug for AMD video cards and amd integrated graphics. This workaround is for blurry video playback on Chrome's D3D11 backend with some AMD drivers — D3D9 renders fine, D3D11 looks soft until the blur filter is neutralized.
 
 ## Install (unpacked)
 
@@ -25,9 +25,11 @@ video {
 That's the whole extension. No JS, no permissions beyond the matched hosts.
 
 BEFORE:
-<img width="2560" height="1920" alt="image" src="https://github.com/user-attachments/assets/22b471b3-5143-49a7-9e54-3f1d44357368" />
+<img width="4000" height="3000" alt="20260924_183215" src="https://github.com/user-attachments/assets/ebc95db5-1ecf-4863-a01f-bab6659a5eb5" />
+
 AFTER:
-<img width="2560" height="1920" alt="image" src="https://github.com/user-attachments/assets/efb8a333-8ad2-4941-9085-870208377be4" />
+<img width="4000" height="3000" alt="20260924_183220" src="https://github.com/user-attachments/assets/097cc128-c7fd-43df-b8a1-1a10dac2675c" />
+
 
 
 
